@@ -116,6 +116,18 @@ input, textarea {
   filter: blur(130px);
 }
 
+/* ── Hero outer section needs relative positioning for orbs ── */
+#top {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── Manifesto inner content must sit above the bg "47" watermark ── */
+#manifesto .inner {
+  position: relative;
+  z-index: 1;
+}
+
 /* ═══════════════════════════════════════════════════════ */
 /*  NAVBAR                                                 */
 /* ═══════════════════════════════════════════════════════ */
