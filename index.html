@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="47 Agency — Full-service digital marketing and business development agency based in Istanbul, Turkey. Social media, content, paid ads, branding, and web." />
   <title>47 Agency — We Grow Your Brand</title>
+  <link rel="icon" type="image/png" href="assets/logo47-nobg.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,18 +16,18 @@
 <header id="navbar">
   <div class="container">
     <div class="inner">
-      <div class="nav-logo" onclick="scrollTo('top')">
+      <div class="nav-logo" onclick="goTo('top')">
         <img src="assets/logo47-nobg.png" alt="47 Agency Logo" />
         <span class="nav-logo-text">AGENCY</span>
       </div>
 
       <nav class="desktop-nav">
-        <button onclick="scrollTo('services')">Services</button>
-        <button onclick="scrollTo('process')">Process</button>
-        <button onclick="scrollTo('contact')">Contact</button>
+        <button onclick="goTo('services')">Services</button>
+        <button onclick="goTo('process')">Process</button>
+        <button onclick="goTo('contact')">Contact</button>
       </nav>
 
-      <button class="glowing-btn nav-cta" onclick="scrollTo('contact')">Get Started</button>
+      <button class="glowing-btn nav-cta" onclick="goTo('contact')">Get Started</button>
 
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -34,10 +35,10 @@
     </div>
 
     <div class="mobile-menu" id="mobile-menu">
-      <button onclick="scrollTo('services')">Services</button>
-      <button onclick="scrollTo('process')">Process</button>
-      <button onclick="scrollTo('contact')">Contact</button>
-      <button onclick="scrollTo('contact')" style="color:#a78bfa;font-weight:700;">Get Started →</button>
+      <button onclick="goTo('services')">Services</button>
+      <button onclick="goTo('process')">Process</button>
+      <button onclick="goTo('contact')">Contact</button>
+      <button onclick="goTo('contact')" style="color:#a78bfa;font-weight:700;">Get Started →</button>
     </div>
   </div>
 </header>
@@ -74,8 +75,8 @@
           </p>
 
           <div class="hero-btns fade-in" data-delay="0.3">
-            <button class="glowing-btn btn-primary" onclick="scrollTo('contact')">Get Started</button>
-            <button class="btn-ghost glass-card" onclick="scrollTo('services')">Explore Services</button>
+            <button class="glowing-btn btn-primary" onclick="goTo('contact')">Get Started</button>
+            <button class="btn-ghost glass-card" onclick="goTo('services')">Explore Services</button>
           </div>
         </div>
 
