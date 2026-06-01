@@ -6,9 +6,13 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 
 /* ── Smooth scroll helper ─────────────────────────────── */
-function scrollTo(id) {
+/* NOTE: named goTo to avoid shadowing native window.scrollTo */
+function goTo(id) {
   const el = document.getElementById(id);
-  if (el) el.scrollIntoView({ behavior: 'smooth' });
+  if (!el) return;
+  const offset = 80; /* account for fixed navbar height */
+  const top = el.getBoundingClientRect().top + window.scrollY - offset;
+  window.scrollTo({ top, behavior: 'smooth' });
 }
 
 /* ── Mobile menu toggle ───────────────────────────────── */
