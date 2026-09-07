@@ -10,7 +10,7 @@ export function SiteHeader() {
 
         {/* Logo */}
         <Link
-          href="/"
+          href="/#top"
           className="flex items-center"
           aria-label="Go to homepage"
         >
