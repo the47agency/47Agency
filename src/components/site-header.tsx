@@ -10,7 +10,7 @@ export function SiteHeader() {
 
         {/* Logo */}
         <Link
-          href="/#top"
+          href="/top"
           className="flex items-center"
           aria-label="Go to homepage"
         >
@@ -28,21 +28,21 @@ export function SiteHeader() {
         <nav className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
 
           <Link
-            href="/#lab"
+            href="/lab"
             className="transition-colors hover:text-foreground"
           >
             47 Lab
           </Link>
 
           <Link
-            href="/#services"
+            href="/services"
             className="transition-colors hover:text-foreground"
           >
             Services
           </Link>
 
           <Link
-            href="/#contact"
+            href="/contact"
             className="transition-colors hover:text-foreground"
           >
             Contact
@@ -56,7 +56,7 @@ export function SiteHeader() {
           </Link>
 
           <Link
-            href="/#process"
+            href="/process"
             className="transition-colors hover:text-foreground"
           >
             Process
