@@ -27,35 +27,35 @@ export function SiteHeader() {
         {/* Navigation */}
         <nav className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
           <Link
-            href="/47 Lab"
+            href="/#47 Lab"
             className="transition-colors hover:text-foreground"
           >
             47 Lab
           </Link>
 
           <Link
-            href="/Services"
+            href="/#Services"
             className="transition-colors hover:text-foreground"
           >
             Services
           </Link>
 
           <Link
-            href="/pricing"
+            href="/#Contact"
             className="transition-colors hover:text-foreground"
           >
             Contact
           </Link>
 
           <Link
-            href="/About"
+            href="/#About"
             className="transition-colors hover:text-foreground"
           >
             About
           </Link>
 
           <Link
-            href="/Process"
+            href="/#Process"
             className="transition-colors hover:text-foreground"
           >
            Process
