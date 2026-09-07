@@ -37,7 +37,7 @@ const works: WorkItem[] = [
     description:
       "A performance-led campaign built around a clear creative direction and measurable action.",
     meta: "Campaign Strategy / Creative / Performance",
-    image: "",
+    image: "campaign-01.jpg",
     accent: "blue",
   },
   {
@@ -48,7 +48,7 @@ const works: WorkItem[] = [
     description:
       "A focused campaign system designed to turn attention into qualified conversations.",
     meta: "Paid Media / Creative Direction",
-    image: "",
+    image: "campaign-02.jpg",
     accent: "violet",
   },
   {
@@ -59,7 +59,7 @@ const works: WorkItem[] = [
     description:
       "Creative built for high-impact digital advertising across multiple placements.",
     meta: "Creative / Paid Social",
-    image: "",
+    image: "campaign-03.jpg",
     accent: "cyan",
   },
   {
@@ -70,7 +70,7 @@ const works: WorkItem[] = [
     description:
       "A campaign concept connecting strong visual communication with performance.",
     meta: "Campaign / Art Direction",
-    image: "",
+    image: "campaign-04.jpg",
     accent: "orange",
   },
   {
