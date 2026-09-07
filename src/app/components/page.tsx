@@ -35,8 +35,8 @@ const works: WorkItem[] = [
     label: "AD CAMPAIGN",
     title: "Campaign One",
     description:
-      "A performance-led campaign built around a clear creative direction and measurable action.",
-    meta: "Campaign Strategy / Creative / Performance",
+      "A performance-driven campaign built to maximize purchase value through targeted media and continuous optimization",
+    meta: "Paid Media / Performance / Optimization",
     image: "campaign-01.jpg",
     accent: "blue",
   },
@@ -46,8 +46,8 @@ const works: WorkItem[] = [
     label: "AD CAMPAIGN",
     title: "Campaign Two",
     description:
-      "A focused campaign system designed to turn attention into qualified conversations.",
-    meta: "Paid Media / Creative Direction",
+      "A data-led performance campaign focused on scaling purchases while maintaining efficient return on ad spend",
+    meta: "Performance Marketing / Paid Media / ROAS",
     image: "campaign-02.jpg",
     accent: "violet",
   },
@@ -57,8 +57,8 @@ const works: WorkItem[] = [
     label: "AD CAMPAIGN",
     title: "Campaign Three",
     description:
-      "Creative built for high-impact digital advertising across multiple placements.",
-    meta: "Creative / Paid Social",
+      "A multi-channel advertising campaign designed to expand reach, drive engagement, and turn attention into measurable results",
+    meta: "Paid Social / Creative / Performance",
     image: "campaign-03.jpg",
     accent: "cyan",
   },
@@ -68,8 +68,8 @@ const works: WorkItem[] = [
     label: "AD CAMPAIGN",
     title: "Campaign Four",
     description:
-      "A campaign concept connecting strong visual communication with performance.",
-    meta: "Campaign / Art Direction",
+      "A performance-focused campaign combining strong creative direction with data-driven media buying to drive measurable growth",
+    meta: "Creative Direction / Paid Media / Growth",
     image: "campaign-04.jpg",
     accent: "orange",
   },
