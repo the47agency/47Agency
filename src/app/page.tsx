@@ -154,8 +154,8 @@ export default function Home() {
       <SiteHeader />
 
       {/* Hero */}
-      <section className="relative overflow-hidden pt-40 pb-24 lg:pt-48 lg:pb-28">
-        <AuroraBackground intensity="subtle" />
+<section id="top" className="relative overflow-hidden pt-40 pb-24 lg:pt-48 lg:pb-28">
+  <AuroraBackground intensity="subtle" />
 
         <GridPattern
           width={48}
@@ -1177,8 +1177,8 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section className="relative py-24 lg:py-32">
-        <div className="mx-auto max-w-6xl px-4 lg:px-8">
+<section id="services" className="relative py-24 lg:py-32">
+  <div className="mx-auto max-w-6xl px-4 lg:px-8">
           <div className="grid gap-6 md:grid-cols-3">
             {[
               {
