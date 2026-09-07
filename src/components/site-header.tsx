@@ -10,19 +10,32 @@ export function SiteHeader() {
 
         {/* Logo */}
         <Link
-          href="/#top"
-          className="flex items-center"
-          aria-label="Go to homepage"
-        >
-          <Image
-            src="/logo.png"
-            alt="47 Agency"
-            width={55}
-            height={55}
-            priority
-            className="h-10 w-10 object-contain"
-          />
-        </Link>
+  href="/"
+  onClick={(e) => {
+    if (window.location.pathname === "/") {
+      e.preventDefault();
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }
+  }}
+  className="flex items-center"
+  aria-label="Go to homepage"
+>
+  <Image
+    src="/logo.png"
+    alt="47 Agency"
+    width={55}
+    height={55}
+    priority
+    className="h-10 w-10 object-contain"
+  />
+</Link>
 
         {/* Navigation */}
         <nav className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
