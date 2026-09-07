@@ -10,7 +10,7 @@ export function SiteHeader() {
 
         {/* Logo */}
         <Link
-          href="/top"
+          href="/"
           className="flex items-center"
           aria-label="Go to homepage"
         >
@@ -49,7 +49,7 @@ export function SiteHeader() {
           </Link>
 
           <Link
-            href="/#blog"
+            href="/blog"
             className="transition-colors hover:text-foreground"
           >
             About
